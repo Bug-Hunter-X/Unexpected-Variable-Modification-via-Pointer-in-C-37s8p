@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = &x; //Ensure the pointer is correctly pointing to the variable if(ptr != NULL) { *ptr = 20; } printf("%d\n", x); return 0;} 
